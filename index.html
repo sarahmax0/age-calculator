@@ -5,17 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
 </head>
       <body>
         <div class="container">
           <div class="input">
             <p>DAY</p>
             <input type="number" name="DD" placeholder="DD" id="DD">
+            <p id="invalidday"></p>
             <p>MONTH</p>
             <input type="number" name="DD" placeholder="MM" id="MM">
+            <p id="invalidmonth"></p>
             <p>YEAR</p>
             <input type="number" name="DD" placeholder="YYYY" id="YYYY">
+            <p id="invalidyear"></p>
           </div>
+          <button id="inputBtn">Click here</button>
           
         </div>
 
@@ -25,5 +30,6 @@
               Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
               Coded by <a href="#">Your Name Here</a>.
             </div>
+            <script src="index.js"></script>
       </body>
 </html>
