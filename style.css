@@ -1,33 +1,117 @@
-/*<style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>*/
 
-  
-  body {
-    padding: 0;
+body {
+    display: flex;
+    height: 100vh;
     margin: 0;
-    background-color:  hsl(0, 0%, 94%);
-  }
+    font-family: 'Poppins', sans-serif;
+    marker: none;
+}
 
-
-  .container {
+.container {
     display: flex;
-    height: 450px;
-    width: 650px;
-    margin-top: 100px;
-    margin-bottom: 80px;
-    margin-right: 80px;
-    margin-left: 370px;
-    align-items: center;
-    background-color: white;
-    border-radius: 15px;
+    justify-content: space-between;
+    width: 450px;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 150px;
+    height:450px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
     border-bottom-right-radius: 150px;
-  /* Centralizar na vertical e na horizontal */
-  
-  }
+    
+}
 
-  .input {
-    display: flex;
+.input{
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
-  }
+.primeiro {
+    font-size: xx-small;
+    color:  hsl(0, 1%, 44%);
+}
+
+.inputs {
+    border: 1px solid hsl(0, 1%, 44%);
+    padding: 10px 1px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bolder;font-size: x-large;
+    width: 100px;
+
+}
+
+.p {
+    font-size: xx-small;
+    color: hsl(0, 100%, 67%);
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#inputBtn {
+    width: 100px;
+    height: 70px;
+    border-radius: 100px;
+    border: none;
+    background-color: black;
+    margin-top: 110px;
+    margin-left: 100PX;
+    box-shadow: 5px 1px 5px #ccc;
+    color: #ccc;
+    transition: all 0.5s ease;
+}
+
+#inputBtn:hover {
+    text-shadow: 0 0 12px #ccc;
+
+}
+
+.contagem {
+    font-size: xx-large;
+    
+}
+
+.yearsC {
+    margin-top: 280px;
+    font-size: 800;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 450px;
+    margin-bottom: -50px;
+}
+
+.monthsC {
+    font-size: 800;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    margin-left: 450px;
+    margin-bottom: -50px;
+}
+
+.daysC {
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    margin-left: 450px;
+}
+
+
+
+

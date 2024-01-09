@@ -4,32 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Age calculator app</title>
   <link rel="stylesheet" href="style.css">
+  <title>Age calculator app</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
 </head>
       <body>
         <div class="container">
-          <div class="input">
-            <p>DAY</p>
-            <input type="number" name="DD" placeholder="DD" id="DD">
-            <p id="invalidday"></p>
-            <p>MONTH</p>
-            <input type="number" name="DD" placeholder="MM" id="MM">
-            <p id="invalidmonth"></p>
-            <p>YEAR</p>
-            <input type="number" name="DD" placeholder="YYYY" id="YYYY">
-            <p id="invalidyear"></p>
-          </div>
-          <button id="inputBtn">Click here</button>
-          
-        </div>
+              <div class="input">
+                  <p class="primeiro">D A Y</p>
+                  <input class="inputs" type="number" name="DD" placeholder="DD" id="DD">
+                  <p class="p" id="invalidday"></p>
+              </div>
+              <div class="input">
+                  <p class="primeiro">M O N T H</p>
+                  <input class="inputs"  type="number" name="DD" placeholder="MM" id="MM">
+                  <p class="p" id="invalidmonth"></p>
+                </div>
+              <div class="input">
+                  <p class="primeiro">Y E A R</p>
+                  <input class="inputs"  type="number" name="DD" placeholder="YYYY" id="YYYY">
+                  <p class="p" id="invalidyear"></p>
+              </div>
+              <button id="inputBtn">
+               Click here
+              </button>
+              
 
-
-            
-            <div class="attribution">
-              Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-              Coded by <a href="#">Your Name Here</a>.
             </div>
+            <div class="contagem">
+              <h1 class="yearsC">-- years</h1>
+              <h1 class="monthsC">-- months</h1>
+              <h1 class="daysC">-- days</h1>
+            </div>
+
+
+            <!--<div class="attribution">
+              Coded by <a href="#">Your Name Here</a>.
+            </div>-->
             <script src="index.js"></script>
       </body>
 </html>
